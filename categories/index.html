@@ -1,0 +1,27 @@
+---
+layout: post-index
+title: Categories 
+comments: false
+image:
+  feature: Cover.jpg
+---
+
+{% for category in site.categories %}
+<article>
+  <h2 id="{{category | first}}" class="tag-heading">{{category | first}}</h2>
+  <ul>
+  {% for posts in category %}
+  {% for post in posts %}
+  {% if post.url %}
+  
+  <div class="category-subheading">
+    <a class="entry-title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+  </div>
+
+  {% endif %}
+  {% endfor %}
+
+  {% endfor %}
+</ul>
+</article>
+{% endfor %}

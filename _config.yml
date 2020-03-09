@@ -1,0 +1,107 @@
+title:            Sometimes
+description:      배운 것을 정리하는 블로그
+disqus_shortname: sometimes-1
+reading_time:    false
+words_per_minute: 200
+# Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url: 
+
+# Owner/author information
+owner:
+  name:           Yujin Jung
+  avatar:         avatar.jpg
+  bio:            ""
+  email:          yujin.jung0@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  facebook:       yujinjung92
+  github:         yujinjung
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-101835983-1
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Seoul
+future:      true  # publish future dated posts --  true, false (default)
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-gist
+  - jekyll-feed
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+# paginate_path: "/recent_Posts/page:num/"
+# paginate: 6 
+# paginate_path: "/recent_Posts/page:num/"
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page:num/'
+  title_suffix: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+
+markdown:    kramdown
+highlighter: rouge
+
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: true
+  use_coderay: true
+  syntax_highlighter: rouge
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
