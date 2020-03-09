@@ -6,7 +6,7 @@ comments: false
 pagination: 
   enabled: true
 image: 
-  feature: background/Computer/2.jpg
+  feature: background/0.png
 ---
 
 
@@ -18,7 +18,7 @@ image:
   {% assign categories_list = site_categories | split:',' | sort %}
 
   <ul class="entry-meta inline-list">
-    <h1 style="text-align: center; margin-bottom: 30px;">Category</h1>
+    <h1 style="text-align: center; margin-bottom: 30px;"><a href="{{ site.url }}/categories/">Category</a></h1>
       {% for item in (0..site.categories.size) %}
       {% unless forloop.last %} 
         {% capture this_word %}

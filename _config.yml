@@ -1,5 +1,5 @@
-title:            Sometimes
-description:      배운 것을 정리하는 블로그
+title:            PLCON
+description:      수능준비
 disqus_shortname: sometimes-1
 reading_time:    false
 words_per_minute: 200
@@ -9,14 +9,14 @@ url:
 
 # Owner/author information
 owner:
-  name:           Yujin Jung
+  name:           PLCON
   avatar:         avatar.jpg
   bio:            ""
-  email:          yujin.jung0@gmail.com
+  email:          ckswlsrj@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  facebook:       yujinjung92
-  github:         yujinjung
+  facebook:       
+  github:         
   stackexchange:
   linkedin:
   instagram:
