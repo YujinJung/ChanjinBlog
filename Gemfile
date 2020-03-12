@@ -1,13 +1,11 @@
 source "https://rubygems.org"
 
 gem 'kramdown-syntax-coderay'
-
-gem "jekyll"
-gem "tzinfo"
-gem "tzinfo-data"
-
+gem 'tzinfo-data'
 gem "json"
+gem "jekyll"
 gem "jekyll-sitemap"
+# gem "jekyll-paginate"
 gem "jekyll-gist"
 
 group :jekyll_plugins do
